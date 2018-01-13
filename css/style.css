@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+body {
+  background: #eee; }
+
+.container {
+  box-sizing: border-box;
+  width: 500px;
+  margin: 1em auto;
+  background: #eee;
+  text-align: center; }
+
+.box {
+  margin: 1em;
+  padding: 1em;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2); }
+
+.profilna {
+  width: 100px; }
+
+.filmovi:before, .filmovi:after {
+  content: "";
+  display: table; }
+.filmovi:after {
+  clear: both; }
+.filmovi img {
+  float: left;
+  margin-right: 1em; }
+
+.vcenter {
+  position: relative;
+  transform: translateY(50%); }
+  .vcenter p {
+    text-align: justify;
+    padding: 1em 0.5em;
+    margin-left: 1em; }
 
 /*# sourceMappingURL=style.css.map */
